@@ -27,7 +27,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o0chB6TuD3l7gwKDzxnlixY-f9Nw",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "0IGV9uE7W3yYEYgCmQJKkttKWfJ6ZBhstOOqywPCxcY",
+      useTemplateId: "eIrP_6n9dt70bXXBOA-8Klbw9kz-GaAvy-oAqvVeF7E",
       // 所在省份
       province: "湖北",
       // 所在城市
@@ -42,19 +42,19 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "咩咩", "year": "2002", "date": "02-16"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2001", "date": "05-13"},
+        
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "啵子", "year": "2001", "date": "05-13"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "*生日", "name": "啵子", "year": "2001", "date": "05-13"},
+        
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2018-02-16"},
+        {"keyword": "love_day", date: "2018-02-17"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2014-09-01"},
+        {"keyword": "marry_day", date: "2014-09-02"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        {"keyword": "ex_day", date: "2001-05-13"},
       ]
     },
     {
