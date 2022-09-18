@@ -63,8 +63,8 @@ export const config = {
       useTemplateId: "Zea2PaGuCAfOTdD2Mhg3PZhUolnMfcNh6pl5MwadSVU",
       province: "",
       city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      horoscopeDate: '03-29',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
       customizedDateList: []
