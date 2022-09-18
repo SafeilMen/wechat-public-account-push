@@ -64,7 +64,7 @@ export const config = {
       province: "",
       city: "",
       horoscopeDate: '03-29',
-      horoscopeDateType: '本周',
+      horoscopeDateType: '今日',
       openUrl: "",
       festivals: [],
       customizedDateList: []
